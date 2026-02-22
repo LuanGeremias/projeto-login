@@ -1,41 +1,43 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body, html {
     background-color: #225775;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
 }
 
 section {
     background-color: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 250px;
+    height: 500px;
     border-radius: 30px;
+    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.522);
 }
 
-#imagem1 {
-    width: 300px;
-    height: 250px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+#foto {
+    background: #621b74 url('../img/laranja.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
 }
 
-section h1 {
-    text-align: center;
+#formulario {
     padding: 10px;
 }
 
-section p {
-    padding: 10px;
-}
-
-span {
-    display: block;
-    margin-left: 10px;
-}
