@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to top, #);
+        background-image: linear-gradient(to top, #32202C, #005D8A);
     }
 
     section {
@@ -22,6 +22,10 @@
 /* telas grandes */
  
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #32202C, #005D8A);
+    }
+
     section {
         width: 950px;
     }
