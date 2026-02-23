@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+        background-image: linear-gradient(to top, #);
+    }
+
+    section {
+        width: 70vw;
+    }
+
+    div#foto {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+/* telas grandes */
+ 
+@media screen and (min-width: 992px) {
+    section {
+        width: 950px;
+    }
+
+    div#foto {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
