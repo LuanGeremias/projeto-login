@@ -5,6 +5,7 @@
 
     section {
         width: 70vw;
+        height: 310px;
     }
 
     div#foto {
@@ -17,6 +18,11 @@
         float: right;
         width: 70%;
     }
+
+    #formulario p {
+    font-size: 1em;
+    margin: 10px 0px;
+    }
 }
 
 /* telas grandes */
@@ -28,6 +34,7 @@
 
     section {
         width: 950px;
+        height: 335px;
     }
 
     div#foto {
@@ -47,5 +54,6 @@
 
     #formulario p {
     font-size: 1.3em;
+    margin: 10px 0px;
     }
 }
